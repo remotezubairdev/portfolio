@@ -4,7 +4,7 @@ import { BsArrowLeft } from 'react-icons/bs';
 
 const page = ({ params } : { params: { id: number } }) => {
     // opened blog
-    const currentBlog = blogs.find(blog => blog.id == params.id);
+    const currentBlog = blogs.find(blog => blog.id === parseInt(params.id));
 
     return (
         <div>

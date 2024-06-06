@@ -6,7 +6,7 @@ import LinkBtn from '@/app/components/LinkBtn';
 import { BsArrowLeft } from 'react-icons/bs';
 
 const ProjectPage = ({ params }: { params: { slug: string }}) => {
-  const currentProject = projects.find(project => project.id == params.slug);
+  const currentProject = projects.find(project => project.id === parseInt(params.slug));
 
   if (!currentProject) {
     return <div className="flex justify-center items-center h-screen">

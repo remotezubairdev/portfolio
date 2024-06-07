@@ -4,6 +4,17 @@ import Image from 'next/image';
 
 import LinkBtn from '@/app/components/LinkBtn';
 import { BsArrowLeft } from 'react-icons/bs';
+import { Metadata } from 'next';
+
+export async function generateMetadata({ params }: { params: { slug: string }}): Promise<Metadata> {
+  
+  const currentProject = projects.find(project => String(project.id) === params.slug)
+
+  return {
+    title: currentProject?.title,
+    description: currentProject?.description,
+  }
+}
 
 const ProjectPage = ({ params }: { params: { slug: string }}) => {
   const currentProject = projects.find(project => String(project.id) === params.slug);

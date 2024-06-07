@@ -4,8 +4,18 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 
 export const metadata: Metadata = {
-  title: "Portfolio | Zubair Dev",
-  description: "Front-end Web Developer knows Nextjs & Reactjs building modern web applications",
+  title: {
+    default: "Portfolio | Zubair Dev",
+    template: "%s | Portfolio"
+  },
+  description: "Front end Web Developer knows Next js & React js building modern and responsive web applications",
+  twitter: {
+    card: "summary_large_image"
+  },
+  robots: {
+    index: true,
+    follow: true
+  }
 };
 
 export default function RootLayout({

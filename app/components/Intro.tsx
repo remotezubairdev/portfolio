@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 import Image from 'next/image'
 import LinkBtn from './LinkBtn'
-import { FaGithub, FaFacebook } from 'react-icons/fa';
+import { FaGithub, FaFacebook, FaInstagram } from 'react-icons/fa';
 
 const Intro = () => {
   return (
@@ -23,6 +23,7 @@ const Intro = () => {
           <LinkBtn outline={true} path='/contact' name='Contact Me' />
           <LinkBtn icons={<FaGithub size={16} />} small={true} path='https://github.com/remotezubairdev' name='GitHub' />
           <LinkBtn icons={<FaFacebook size={16} />} small={true} path='https://www.facebook.com/p/Zubair-Dev-61556278371334/?mibextid=LQQJ4d&wtsid=rdr_0N6ZAvKDVdW63gO1L&paipv=0&eav=AfasNpxeuzMqfcSjiFe9awkqC5MTxfpWxf_as1Sst1h4enjjXbW7GP0HM539E6tLLrs&_rdr' name='Facebook' />
+          <LinkBtn icons={<FaInstagram size={16} />} small={true} path='https://www.instagram.com/zubairasifdar/' name='Instagram' />
         </div>
     </article>
   )

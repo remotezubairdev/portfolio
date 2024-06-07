@@ -1,9 +1,17 @@
+
+
 import React from 'react'
 import LinkBtn from '../components/LinkBtn';
 
 import Image from 'next/image'
 import Link from 'next/link'
 import { projects } from '../constants';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "My Projects",
+  description: "Made using HTML | CSS | JavaScript | Tailwind CSS | React JS | Next JS by Zubair Dev front end web developer"
+}
 
 const page = () => {
   return (

@@ -1,10 +1,13 @@
 import LinkBtn from '@/app/components/LinkBtn';
-import { blogs } from '@/app/constants'
+import { blogs } from '@/app/constants';
 import { BsArrowLeft } from 'react-icons/bs';
 
-const page = ({ params } : { params: { id: number } }) => {
-    // opened blog
-    const currentBlog = blogs.find(blog => blog.id === parseInt(params.id));
+const Page = ({ params }: { params: { id: string } }) => {
+    // Convert params.id to a number
+    const blogId = parseInt(params.id);
+
+    // Find the blog with the matching ID
+    const currentBlog = blogs.find(blog => blog.id === blogId);
 
     return (
         <div>
@@ -16,4 +19,4 @@ const page = ({ params } : { params: { id: number } }) => {
     )
 }
 
-export default page
+export default Page;

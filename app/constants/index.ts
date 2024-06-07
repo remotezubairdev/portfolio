@@ -43,9 +43,9 @@ export const projects = [
     },
     {
       id: 3,
-      title: 'Chat App',
-      description: 'Basic chat app made with dynamic feautures',
-      image: '/images/project3.webp',
+      title: 'Landing Page',
+      description: 'Front end application',
+      image: '/images/project4.png',
       width: 300,
       height: 200,
       alt: 'landing_page_website_image'

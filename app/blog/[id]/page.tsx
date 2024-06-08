@@ -1,6 +1,19 @@
 import LinkBtn from '@/app/components/LinkBtn';
 import { blogs } from '@/app/constants';
+import { Metadata } from 'next';
 import { BsArrowLeft } from 'react-icons/bs';
+
+export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
+    // Convert params.id to a number
+    const blogId = parseInt(params.id);
+
+    // Find the blog with the matching ID
+    const currentBlog = blogs.find(blog => blog.id === blogId);
+    
+    return {
+        title: currentBlog?.title,
+    }
+}
 
 const Page = ({ params }: { params: { id: string } }) => {
     // Convert params.id to a number

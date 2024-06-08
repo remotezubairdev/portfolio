@@ -28,7 +28,7 @@ const page = () => {
               width={project.width}
               height={project.height}
               alt={project.alt}
-              className='rounded-lg'
+              className='rounded-lg max-h-[200px] object-cover'
             />
             <div className='my-5'>
                 <h4 className='mt-2 text-md font-semibold tracking-tighter text-white'>{project.title}</h4>

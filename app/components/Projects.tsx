@@ -6,7 +6,7 @@ import { projects } from '../constants';
 
 const Projects = () => {
   return (
-    <article className='mt-8'>
+    <section className='mt-8'>
       <div className='flex items-center justify-between'>
           <h2 className="text-2xl font-medium tracking-tighter text-white">
             my projects
@@ -35,7 +35,7 @@ const Projects = () => {
           }
         })}  
       </div>
-    </article>
+    </section>
   );
 }
 

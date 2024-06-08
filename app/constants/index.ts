@@ -21,7 +21,7 @@ export const projects = [
       image: '/images/project1.webp',
       width: 300,
       height: 200,
-      alt: 'todo_list'
+      alt: 'todo_list_by_Zubair_Dev | Front end web developer'
     },
     {
       id: 1,
@@ -30,7 +30,7 @@ export const projects = [
       image: '/images/project2.jpg',
       width: 300,
       height: 200,
-      alt: 'nike_website'
+      alt: 'nike_website_by_Zubair_Dev | Front end web developer'
     },
     {
       id: 2,
@@ -39,7 +39,7 @@ export const projects = [
       image: '/images/project3.webp',
       width: 300,
       height: 200,
-      alt: 'landing_page_website_image'
+      alt: 'landing_page_website_image_by_Zubair_Dev | Front end web developer'
     },
     {
       id: 3,
@@ -48,7 +48,7 @@ export const projects = [
       image: '/images/project4.png',
       width: 300,
       height: 200,
-      alt: 'landing_page_website_image'
+      alt: 'landing_page_website_image_by_Zubair_Dev | Front end web developer'
     }
   ];
 

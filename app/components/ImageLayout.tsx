@@ -6,10 +6,9 @@ const skills = [
   { name: 'Next.js', logo: '/logos/next-logo.svg', bgColor: 'bg-white', textColor: 'text-gray-800' },
   { name: 'HTML', bgColor: 'bg-red-500', textColor: 'text-gray-200' },
   { name: 'JavaScript', bgColor: 'bg-green-500', textColor: 'text-gray-200' },
-  { name: 'C', bgColor: 'bg-orange-500', textColor: 'text-gray-200' },
   { name: 'CSS3', bgColor: 'bg-purple-500', textColor: 'text-gray-200' },
   { name: 'Tailwind CSS', bgColor: 'bg-blue-500', textColor: 'text-gray-200' },
-  { name: 'API', bgColor: 'bg-yellow-500', textColor: 'text-gray-200' },
+  { name: 'Front end Web Development', bgColor: 'bg-yellow-500', textColor: 'text-gray-200' },
 ];
 
 const AboutLayout = () => {

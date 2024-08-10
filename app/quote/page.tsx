@@ -18,7 +18,7 @@ const Quote: React.FC = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    emailjs.send('service_tzsf2nv', 'template_gmmwib8', form, 'ZzfLdF1SCwuT8AETH')
+    emailjs.send('service_tzsf2nv', 'template_gmmwib8', {...form, type: 'Quote'}, 'ZzfLdF1SCwuT8AETH')
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
       }, (err) => {

@@ -44,7 +44,7 @@ export const projects = [
     {
       id: 3,
       title: 'Landing Page',
-      description: 'Front end application',
+      description: 'Front end application made using tailwind css; The footer isn&apos;t made by me but rather just a template',
       image: '/images/project4.png',
       width: 300,
       height: 200,

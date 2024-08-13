@@ -17,7 +17,7 @@ const Intro = () => {
             Front-end web developer specializing with <Link href="https://nextjs.org/" target="_blank" className="font-semibold inline-flex items-center rounded border border-neutral-200 bg-white p-1 text-sm leading-4 text-neutral-900 no-underline"><Image src="/logos/next-logo.svg" width={14} height={18} className='mr-1' alt="next_logo" />Next.js</Link> built on top of {" "}
             <Link href="https://react.dev/" target="_blank" className="font-semibold inline-flex items-center rounded border border-neutral-700 bg-gray-900 p-1 text-sm leading-4 text-slate-200 no-underline"><Image src="/logos/react.svg" width={14} height={18} className='mr-1' alt="next_logo" />React.js</Link> I have made 
             many modern projects from complete scratch. See my self-learning journey 
-            at <Link href='/blog/1' className='underline text-blue-500'>blog</Link> including YouTube resources.
+            at <Link href='/blog/0' className='underline text-blue-500'>blog</Link> including YouTube resources.
         </p>
 
         <div className='flex items-center flex-wrap gap-3 mt-7'>

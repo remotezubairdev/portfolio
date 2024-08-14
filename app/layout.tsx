@@ -8,11 +8,10 @@ export const metadata: Metadata = {
     default: "Portfolio | Zubair Dev",
     template: "%s | Portfolio"
   },
-  description: "Front end Web Developer knows Next js & React js building modern and responsive web applications",
+  description: "Welcome to my website! I'm an aspiring front-end web developer creating visually appealing and functional web experiences. Although I'm still building my skills in HTML, CSS, and JavaScript, Next JS, React JS etc. I’m enthusiastic about learning and applying modern frameworks like React.js and Next.js to craft engaging digital solutions. Whether you need a simple landing page or a fresh design for your site, I'm dedicated to delivering creative and effective results as I continue to grow in the field. Let’s work together to bring your web ideas to life!",
   authors: [
     {
       name: "Zubair Dev",
-      url "https://remotezubairdev.vercel.app/"
     },
   ],
   keywords: "front end web developer portfolio | web developer | html | css | tailwind css | freelancer | zubair dev | zubair dev portfolio | zubair dev portfolio website",
@@ -22,7 +21,6 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Zubair Dev - Front End Web Developer | Portfolio",
     description: "Zubair Dev is a skilled front end web developer with expertise in Next.js and React.js. Check out my portfolio showcasing modern and responsive web applications.",
-    url: "https://remotezubairdev.vercel.app",
     siteName: "Zubair Dev",
   },
   robots: {

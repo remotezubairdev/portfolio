@@ -10,7 +10,8 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: "My Projects",
-  description: "Made using HTML | CSS | JavaScript | Tailwind CSS | React JS | Next JS by Zubair Dev front end web developer"
+  description: "Made using HTML | CSS | JavaScript | Tailwind CSS | React JS | Next JS by Zubair Dev front end web developer",
+  keywords: "zubair dev portfolio | zubair dev projects | html | css | javascript | react js | reactjs | web developer"
 }
 
 const page = () => {

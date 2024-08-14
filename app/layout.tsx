@@ -25,9 +25,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <meta name="ahrefs-site-verification" content="b7daf56d826617ba520f3d96d1791f3428dc203a10431fbcf84464559a807808">
-      </head>
       <body className={GeistSans.className}>
         <div className='text-slate-100 max-w-3xl mx-auto py-16 px-8'>
           <Navbar />

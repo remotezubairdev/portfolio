@@ -9,7 +9,11 @@ export const metadata: Metadata = {
     template: "%s | Portfolio"
   },
   description: "Front end Web Developer knows Next js & React js building modern and responsive web applications",
-  author: "Zubair Dev",
+  authors: [
+    {
+      name: "Zubair Dev",
+    },
+  ],
   keywords: "front end web developer portfolio | web developer | html | css | tailwind css | freelancer | zubair dev | zubair dev portfolio | zubair dev portfolio website",
   twitter: {
     card: "summary_large_image"

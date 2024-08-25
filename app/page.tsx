@@ -3,6 +3,8 @@ import Intro from './components/Intro'
 import AboutLayout from './components/ImageLayout'
 import Projects from './components/Projects'
 import More from './components/More'
+// Note: -->
+// More Component is for education
 import Footer from './components/Footer'
 
 const Home = () => {
@@ -11,7 +13,6 @@ const Home = () => {
       <Intro />
       <AboutLayout />
       <Projects />
-      <More />
       <Footer />
     </main>
   )

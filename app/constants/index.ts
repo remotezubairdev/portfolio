@@ -21,16 +21,16 @@ export const projects = [
       image: '/images/project1.webp',
       width: 300,
       height: 200,
-      alt: 'todo_list_by_Zubair_Dev | Front end web developer'
+      alt: 'A very simple todo list application I built using Next js'
     },
     {
       id: 1,
       title: 'Nike Website',
-      description: 'Nike Website only made for preview purposes',
+      description: 'Front end Nike Website made using React JS',
       image: '/images/project2.jpg',
       width: 300,
       height: 200,
-      alt: 'nike_website_by_Zubair_Dev | Front end web developer'
+      alt: 'An unofficial nike landing page with beautiful UI designed by Figma'
     },
     {
       id: 2,
@@ -39,12 +39,12 @@ export const projects = [
       image: '/images/project3.webp',
       width: 300,
       height: 200,
-      alt: 'landing_page_website_image_by_Zubair_Dev | Front end web developer'
+      alt: 'Landing page built with Tailwind CSS'
     },
     {
       id: 3,
       title: 'Landing Page',
-      description: 'Front end application made using tailwind css; The footer isn&apos;t made by me but rather just a template',
+      description: `Front end application made using tailwind css; The footer isn't made by me but rather just a template`,
       image: '/images/project4.png',
       width: 300,
       height: 200,

@@ -20,8 +20,8 @@ export async function generateMetadata({ params }: { params: { slug: string }}):
 
 const ProjectPage = async ({ params }: { params: { slug: string }}) => {
   const response = await fetch(`http://localhost:3000/api/projects/${params.slug}`);
-  const project: projectProps[] = await response.json();
-  const currentProject = project[0];
+  const projects: projectProps[] = await response.json();
+  const currentProject = projects[0];
 
   if (!currentProject) {
     return <div className="flex justify-center items-center h-screen">
@@ -29,12 +29,10 @@ const ProjectPage = async ({ params }: { params: { slug: string }}) => {
            </div>;
   }
 
-  console.log(currentProject)
-
   return (
     <div className="max-w-4xl mx-auto p-4">
       <div className="mb-4">
-        <LinkBtn icons={<BsArrowLeft />} small={true} path="/projects" name="back to projects" />
+        <LinkBtn icons={<BsArrowLeft />} small={true} path="/admin" name="back to admin page" />
       </div>
       <div className="mb-6">
         <Image 

@@ -5,8 +5,8 @@ import LinkBtn from '../components/LinkBtn';
 
 import Image from 'next/image'
 import Link from 'next/link'
-import { projects } from '../constants';
 import { Metadata } from 'next';
+import { projectProps } from '../props/projectProps';
 
 export const metadata: Metadata = {
   title: "My Projects",
@@ -14,7 +14,9 @@ export const metadata: Metadata = {
   keywords: "zubair dev portfolio | zubair dev projects | html | css | javascript | react js | reactjs | web developer"
 }
 
-const page = () => {
+const page = async () => {
+  const res = await fetch("http://localhost:3000/api/projects");
+  const projects: projectProps[] = await res.json();
   return (
     <main className='mt-12'>
         <h2 className="text-2xl font-medium tracking-tighter text-white">
@@ -23,11 +25,11 @@ const page = () => {
 
       <div className='rounded-xl grid sm:grid-cols-2 grid-cols-1 gap-x-4 gap-y-1 w-full bg-neutral-900 mt-4 p-4'>
         {projects.map((project, index) => (
-          <Link href={`/projects/${project.id}`} key={index} className='hover:-translate-y-1 transition-[0.3s]'>
+          <Link href={`/projects/${project._id}`} key={index} className='hover:-translate-y-1 transition-[0.3s]'>
             <Image
               src={project.image}
-              width={project.width}
-              height={project.height}
+              width={300}
+              height={200}
               alt={project.alt}
               className='rounded-lg max-h-[200px] object-cover'
             />

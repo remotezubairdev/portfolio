@@ -30,7 +30,7 @@ const Intro = () => {
         <div className='flex flex-col gap-1 my-7 text-sm'>
             <div className='flex items-center gap-2'>
               <MdEmail size={23} />
-              remotezubairdev@gmail.com
+              remote.zubairdev@gmail.com
             </div>
             <div className='flex items-center gap-2'>
               <MdPhone size={23} />

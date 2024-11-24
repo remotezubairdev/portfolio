@@ -3,6 +3,8 @@ import { GeistSans } from 'geist/font/sans';
 import "./globals.css";
 import Navbar from "./components/Navbar";
 
+import { SessionProvider } from 'next-auth/react'
+
 export const metadata: Metadata = {
   title: {
     default: "Portfolio | Zubair Dev",
@@ -36,11 +38,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={GeistSans.className}>
-        <div className='text-slate-100 max-w-3xl mx-auto py-16 px-8'>
-          <Navbar />
-          {children}
-        </div>
+      <body className={`${GeistSans.className} antialiased`}>
+          <div className='text-slate-100 max-w-3xl mx-auto py-16 px-8'>
+            <Navbar />
+            {children}
+          </div>
       </body>
     </html>
   );

@@ -84,6 +84,7 @@ const Quote: React.FC = () => {
           >
             Send Request
           </button>
+          <span className="text-gray-900 text-sm">Prices are flexible*</span>
         </form>
       </div>
     </div>

@@ -10,9 +10,9 @@ interface FormProps {
     password: string;
 }
 
-const page = () => {
-    const router = useRouter();
+const router = useRouter();
 
+const page = () => {
     
     const [form, setForm] = useState<FormProps>({
         username: "",

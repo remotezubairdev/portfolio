@@ -1,6 +1,6 @@
 'use client'
-import React, { useState } from 'react'
-import { useRouter, usePathname } from 'next/navigation';
+import { useState } from React;
+import { useRouter } from 'next/navigation';
 
 const ADMIN_USERNAME = process.env.NEXT_PUBLIC_ADMIN_USERNAME;
 const ADMIN_PASSWORD = process.env.NEXT_PUBLIC_ADMIN_PASSWORD;
@@ -67,4 +67,4 @@ const Page = () => {
   )
 }
 
-export default page
+export default Page;

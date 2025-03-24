@@ -1,6 +1,6 @@
 'use client'
 import { useState } from React;
-import { useRouter } from 'next/navigation';
+import { useRouter } from 'next/router';
 
 const ADMIN_USERNAME = process.env.NEXT_PUBLIC_ADMIN_USERNAME;
 const ADMIN_PASSWORD = process.env.NEXT_PUBLIC_ADMIN_PASSWORD;

@@ -10,7 +10,7 @@ interface FormProps {
     password: string;
 }
 
-const page = () => {
+const Page = () => {
     const router = useRouter();
 
     
